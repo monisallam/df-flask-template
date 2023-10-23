@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-image: url('{{ url_for('static', filename='images/<put image filename here>') }}');
+                background-repeat: no-repeat;
+                background-attachment: fixed;  
+                background-size: cover;
+            }
+            df-messenger{
+                --df-messenger-button-titlebar-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <paste df-messenger integration script here></paste>
+    </body>
+</html>
