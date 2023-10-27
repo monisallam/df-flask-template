@@ -17,10 +17,6 @@
 import os
 import re
 
-from consts import LOCATION
-from consts import PROJECT_ID
-from consts import VALID_LANGUAGES
-
 
 
 from flask import Flask
@@ -31,10 +27,7 @@ from werkzeug.exceptions import HTTPException
 
 app = Flask(__name__)
 
-FORM_OPTIONS = {
-    "language_list": VALID_LANGUAGES,
-    "default_language": VALID_LANGUAGES[0],
-}
+
 
 
 
